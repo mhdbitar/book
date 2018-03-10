@@ -1,0 +1,131 @@
+
+body{
+	font-family:'Microsoft PhagsPa';
+}
+header{
+	width:100%;
+	height:120px;
+	background:#87b6b1; 
+	}
+.header{
+	width:1060px;
+	height:10px;
+	background:#87b6b1; 
+	margin:0 auto;
+}
+header .header .contact{
+	float:right;
+	margin:16px 0 15px 0;
+	color: #fff;
+}
+header .header .contact img{
+	margin-bottom: -2px;
+	margin-right: 8px
+}
+header .header .contact a,
+header .header .contact span{
+	color: #fff;
+	text-decoration:none;
+	font-family:'Microsoft PhagsPa';
+	font-size: 10pt;
+}
+
+ 
+ .title { font-size:  20px ;
+ 	font-family: Ayuthaya ;
+ 	color: Maroon;}
+
+.prghraf{ font-size: 18px ; 
+font-family: Apple Sembols;
+}
+
+h2 { font-family: arial Rounded MT Bold ; 
+font-size: 40px ;
+color: Maroon; }
+
+ h3 { font-family: arial Rounded MT Bold ; 
+font-size: 30px ;
+color: Maroon }
+
+h5 {   ont-family: arial Rounded MT Bold ; 
+font-size: 18px ;
+color: Maroon    }
+
+h4{
+	color:#fff;
+}
+
+hr { 
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 3px;
+} 
+
+
+
+a{
+	color: #5a7c60;
+	font-size: 18pt;
+}
+
+
+body{
+	background:#fff8ee; 
+}
+
+footer{
+	width:100%;
+	height:120px;
+	background:#87b6b1; 
+	}
+.footer{
+	width:1060px;
+	height:10px;
+	background:#87b6b1; 
+	margin:0 auto;
+}
+form{
+	width:200px;
+	height:200px;
+	background:#87b6b1;
+	float:right;   
+	position:relative;
+	top:20px;
+    left:5px; 
+
+}
+
+
+    
+
+
+footer .footer .contact a{
+	color: #fff;
+	text-decoration: none;
+	font-family:'Microsoft PhagsPa';
+	font-size: 10pt;
+	
+}
+
+}
+figcaption.popup{
+	padding:10px;
+	background: #e1e1e1;
+	position: absolute;
+
+	-webkit-box-shadow:0 0 15px #A9A9A9;
+	-moz-box-shadow: 0 0 15px #A9A9A9;
+	box-shadow: 0 0 15px #A9A9A9;
+	visibility: hidden;
+}
+figure.thumbnail:hover figcaption.popup{
+	position: absolute;
+	top:100px;
+	left:100px;
+	visibility: visible;
+	
+}

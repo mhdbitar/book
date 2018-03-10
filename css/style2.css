@@ -1,0 +1,114 @@
+body{
+	font-family:'Microsoft PhagsPa';
+}
+header{
+	width:100%;
+	height:120px;
+	background:#87b6b1; 
+	}
+.header{
+	width:1060px;
+	height:10px;
+	background:#87b6b1; 
+	margin:0 auto;
+}
+header .header .contact{
+	float:right;
+	margin:16px 0 15px 0;
+	color: #fff;
+}
+header .header .contact img{
+	margin-bottom: -2px;
+	margin-right: 8px
+}
+header .header .contact a,
+header .header .contact span{
+	color: #fff;
+	text-decoration:none;
+	font-family:'Microsoft PhagsPa';
+	font-size: 10pt;
+}
+body .contact .photo{
+float: left;
+}
+a{
+	color: #5a7c60;
+	font-size: 20pt;
+}
+
+h2{
+	font-size:10pt;
+	font-family:'Microsoft PhagsPa'; 
+}
+body{
+
+   	background:#fff8ee; 
+	
+
+
+
+}
+h1{
+color:#5a7c60; 
+font-size: 20pt;
+ text-decoration:none;
+	font-family:'Microsoft PhagsPa';
+	padding:right;
+	
+}
+footer{
+	position: relative;
+	top:370px;
+	width:100%;
+	height:120px;
+	background:#87b6b1; 
+	}
+.footer{
+	width:1060px;
+	height:10px;
+	background:#87b6b1; 
+	margin:0 auto;
+}
+form{
+	width:200px;
+	height:200px;
+	background:#87b6b1;
+	float:right;   
+	position:relative;
+	top:20px;
+    left:430px; 
+
+}
+nav{
+	float:left;   
+	position:relative;
+	top:20px;
+	left: 5px;
+
+    
+
+}
+footer .footer .contact a{
+	color: #fff;
+	text-decoration: none;
+	font-family:'Microsoft PhagsPa';
+	font-size: 10pt;
+	
+}
+figcaption.popup{
+	padding:10px;
+	background: #e1e1e1;
+	position: absolute;
+
+	-webkit-box-shadow:0 0 15px #A9A9A9;
+	-moz-box-shadow: 0 0 15px #A9A9A9;
+	box-shadow: 0 0 15px #A9A9A9;
+	visibility: hidden;
+}
+figure.thumbnail:hover figcaption.popup{
+	position: absolute;
+	top:100px;
+	left:100px;
+	visibility: visible;
+	
+}
